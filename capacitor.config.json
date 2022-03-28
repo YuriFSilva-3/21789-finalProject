@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "CalmDown",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}

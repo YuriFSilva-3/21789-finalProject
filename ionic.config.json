@@ -1,0 +1,7 @@
+{
+  "name": "CalmDown",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
