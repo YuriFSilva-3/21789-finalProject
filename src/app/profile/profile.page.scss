@@ -1,0 +1,29 @@
+ion-content{
+    --background: url('https://w0.peakpx.com/wallpaper/576/621/HD-wallpaper-zen-10-art-buddha-love-meditation-mindfulness-mysticmessenger-nature-peace-yoga.jpg')
+}
+.place{
+    
+    padding-bottom: 10%;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid;
+    box-shadow:2px 2px 8px  rgba($color: #000000, $alpha: 1.0);
+}
+
+.save {
+    padding-top: 5%;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: auto;
+    
+  };
+  .icon{
+      width: 200;
+      height: 200px;
+  }
+
+ 

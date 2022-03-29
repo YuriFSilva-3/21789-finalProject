@@ -1,0 +1,36 @@
+<ion-header>
+  <ion-toolbar>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card (click) = "videos()" routerLink = "/videos" >
+    <ion-card-header>
+      <ion-card-title>Videos</ion-card-title>
+      <ion-card-subtitlte>For exercise and inspiration</ion-card-subtitlte>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-img src ="../assets/images/card1.jpg"></ion-img>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card (click) = "write()" routerLink = "/write">
+  <ion-card-header>
+    <ion-card-title>Your Space</ion-card-title>
+    <ion-card-subtitlte>Write down your thoughts and give your mind a break</ion-card-subtitlte>
+  </ion-card-header>
+  <ion-card-content>
+    <ion-img src ="../assets/images/card2.jpeg"></ion-img>
+  </ion-card-content>
+</ion-card>
+
+<ion-card (click) = "profile()" routerLink = "/profile">
+  <ion-card-header>
+    <ion-card-title>Profile</ion-card-title>
+    <ion-card-subtitlte>Set who you are</ion-card-subtitlte>
+  </ion-card-header>
+  <ion-card-content>
+    <ion-img src ="../assets/images/card3.jpg"></ion-img>
+  </ion-card-content>
+</ion-card>
+</ion-content>
